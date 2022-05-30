@@ -28,7 +28,7 @@ object CsvToDatasetBookToDataframe extends Basic{
     ds.printSchema()
 
     val booksContainAction = ds.filter(b => b.title.contains("Action")).take(5)
-    println("-------------------")
+
     booksContainAction.foreach(println _)
   }
 }
