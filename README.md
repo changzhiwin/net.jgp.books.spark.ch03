@@ -84,6 +84,7 @@ Book(17,Some(9),Java 8 in Action: Lambdas, Streams, and functional-style program
 ## 4, Some diffcult case
 
 ### Date format 
+Becase the data in the ./data/books.csv is very bad format.
 ```
 // 3.0 changed
 spark.conf.set("spark.sql.legacy.timeParserPolicy","LEGACY")
